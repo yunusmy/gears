@@ -270,6 +270,31 @@ margin:10px
 /* Responsive style */
 
 
+
+
 @media screen and (max-width:578px){
+  .nav-ber ,
+  .nav-bar-link,
+  .Popular-Collection,
+  .Featured-products
+  ,.banner{
+    flex-direction: column;
+  }
+  .collection-list,
+  .brand-container{
+    grid-template-columns: repeat(1,1fr);
+  }
+.brand-container img{
+  
+  margin-bottom: 20px;
+  
+
+}
+.brand-name-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
   
 }
